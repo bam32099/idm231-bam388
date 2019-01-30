@@ -1,3 +1,5 @@
+
+
 // Variables
 
 function AstroSign(name, sound, image, desc) {
