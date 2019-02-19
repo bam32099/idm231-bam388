@@ -2,6 +2,11 @@ body {
     background-color: #E3FCFF ;
 }
 
+
+.entry {
+    text-align: center;
+}
+
 #head {
 
     text-shadow: 1px 1.5px gray;

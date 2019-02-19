@@ -2,20 +2,22 @@
 
 // Variables
 
-function AstroSign(name, sound, image, desc) {
-    this.name = name;
-    this.sound = sound;
-    this.image = image;
-    this.desc = desc;
-    this.playSound = function() 
-}
-const selectedSign = 'taurus';
-console.log(eval(selectedSign).image);
+// function playSound(name, sound, image, desc) {
+//     this.name = name;
+//     this.sound = sound;
+//     this.image = image;
+//     this.desc = desc;
+//     this.playSound = function() 
+// }
 
-const taurus = new AstroSign('taurus', 'running_bull', 'image', 'desc');
+// const selectedSign = 'taurus';
+// console.log(eval(selectedSign).image);
 
-console.log(taurus.sound); running_bull
-taurus.playSound();
+// const taurus = new AstroSign('taurus', 'running_bull', 'image', 'desc');
+
+// console.log(taurus.sound); running_bull
+// taurus.playSound();
+
 
 if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
     AstroSign = "Cap";
@@ -42,3 +44,8 @@ if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayO
   } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
     AstroSign = "Aqu";
   }
+
+  var dob;
+  var dob_month;
+  var dob_day;
+  var selected_sign;
