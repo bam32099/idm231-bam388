@@ -1,5 +1,5 @@
 body {
-    background-color: #E3FCFF ;
+    background-color: rgb(250, 107, 107) ;
 }
 
 
@@ -9,7 +9,7 @@ body {
 
 #head {
 
-    text-shadow: 1px 1.5px gray;
+    text-shadow: 1px 1.5px rgb(193, 225, 255);
 
     position: relative;
     z-index: 2;
@@ -45,3 +45,15 @@ text-align: center;
 
 }
 
+img.photos {
+max-width: 125px;
+    padding: .5rem;
+    transition: transform .2s; 
+  }
+  
+  img.photos:hover {
+    transform: scale(1.6);
+
+  }
+
+  
