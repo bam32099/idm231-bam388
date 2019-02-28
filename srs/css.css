@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 107, 107) ;
+    background-color: rgb(198, 195, 231) ;
 }
 
 
@@ -53,7 +53,7 @@ max-width: 125px;
   
   img.photos:hover {
     transform: scale(1.6);
-
+    cursor: pointer;
   }
 
   

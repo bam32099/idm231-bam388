@@ -14,7 +14,7 @@ function calculate(f){
   'Virgo':{'m':8,'d':23},
   'Libra':{'m':9,'d':23},
   'Scorpio':{'m':10,'d':22},
-  'Saggitarius':{'m':11,'d':21},
+  'Sagittarius':{'m':11,'d':21},
   'Capricorn2':{'m':11,'d':31}
   }
   var born=f['birthdate'].value;
@@ -40,6 +40,79 @@ function calculate(f){
   return false
   }
 
+// IMPORTANT
+// function myFunction() {
+
+// var x = document.createElement("IMG");
+// x.setAttribute("src", "../resources/aries.png");
+// x.setAttribute("width", "300");
+// x.setAttribute("height", "300");
+// x.setAttribute("alt", "text");
+// document.body.appendChild(x);
+  
+// }
+
+
+
+function symbol1(){
+var audio = new Audio("../sounds/sound1.mp3");
+audio.play();
+}
+
+function symbol2(){
+  var audio = new Audio("../sounds/sound2.mp3");
+  audio.play();
+  }
+
+  function symbol3(){
+    var audio = new Audio("../sounds/sound3.mp3");
+    audio.play();
+    }
+
+    function symbol4(){
+      var audio = new Audio("../sounds/sound4.mp3");
+      audio.play();
+      }
+
+      function symbol5(){
+        var audio = new Audio("../sounds/sound5.mp3");
+        audio.play();
+        }
+
+        function symbol6(){
+          var audio = new Audio("../sounds/sound6.mp3");
+          audio.play();
+          }
+
+          function symbol7(){
+            var audio = new Audio("../sounds/sound7.mp3");
+            audio.play();
+            }
+
+            function symbol8(){
+              var audio = new Audio("../sounds/sound8.mp3");
+              audio.play();
+              }
+
+              function symbol9(){
+                var audio = new Audio("../sounds/sound9.mp3");
+                audio.play();
+                }
+
+                function symbol10(){
+                  var audio = new Audio("../sounds/sound10.mp3");
+                  audio.play();
+                  }
+
+                  function symbol11(){
+                    var audio = new Audio("../sounds/sound11.mp3");
+                    audio.play();
+                    }
+                    
+                    function symbol12(){
+                      var audio = new Audio("../sounds/sound12.mp3");
+                      audio.play();
+                      }
 
 
 // Variables
@@ -61,33 +134,33 @@ function calculate(f){
 // taurus.playSound();
 
 
-if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-    AstroSign = "Cap";
-  } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sag";
-  } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sco";
-  } else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-    AstroSign = "Lib";
-  } else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
-    AstroSign = "Vir";
-  } else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
-    AstroSign = "Leo";
-  } else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-    AstroSign = "Can";
-  } else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
-    AstroSign = "Gem";
-  } else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-    AstroSign = "Tau";
-  } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
-    AstroSign = "Ari";
-  } else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-    AstroSign = "Pis";
-  } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-    AstroSign = "Aqu";
-  }
+// if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
+//     AstroSign = "Cap";
+//   } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
+//     AstroSign = "Sag";
+//   } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
+//     AstroSign = "Sco";
+//   } else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
+//     AstroSign = "Lib";
+//   } else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
+//     AstroSign = "Vir";
+//   } else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
+//     AstroSign = "Leo";
+//   } else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
+//     AstroSign = "Can";
+//   } else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
+//     AstroSign = "Gem";
+//   } else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
+//     AstroSign = "Tau";
+//   } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
+//     AstroSign = "Ari";
+//   } else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
+//     AstroSign = "Pis";
+//   } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
+//     AstroSign = "Aqu";
+//   }
 
-  var dob;
-  var dob_month;
-  var dob_day;
-  var selected_sign;
+//   var dob;
+//   var dob_month;
+//   var dob_day;
+//   var selected_sign;
