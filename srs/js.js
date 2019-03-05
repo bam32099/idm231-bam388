@@ -40,6 +40,12 @@ function calculate(f){
   return false
   }
 
+if ( document.getElementById('sign')= 'Aries' ) {
+
+  document.getElementsByClass("over1").setAttribute(opacity, 1);
+}
+
+
 // IMPORTANT
 // function myFunction() {
 
@@ -57,61 +63,85 @@ function calculate(f){
 function symbol1(){
 var audio = new Audio("../sounds/sound1.mp3");
 audio.play();
+document.getElementById("who").innerHTML = "Aries - Cranidos";
+document.getElementById("change").innerHTML = "Cranidos embodies the spirits of Aries.  Aries are seen as eager, quick and competitive, not unlike Cranidos!";
 }
 
 function symbol2(){
   var audio = new Audio("../sounds/sound2.mp3");
   audio.play();
+  document.getElementById("who").innerHTML = "Taurus - Tauros";
+document.getElementById("change").innerHTML = "Tauros and Taurus are too similar to not be put together!  Taurus individuals are as strong and dependable as a Tauros.";
   }
 
   function symbol3(){
     var audio = new Audio("../sounds/sound3.mp3");
     audio.play();
+    document.getElementById("who").innerHTML = "Gemini - Doduo";
+document.getElementById("change").innerHTML = "The twin-headed Doduo and Gemini are a perfect pair!  Gemini are curious, expressive, and versatile.  Guess twice is nice!";
     }
 
     function symbol4(){
       var audio = new Audio("../sounds/sound4.mp3");
       audio.play();
+      document.getElementById("who").innerHTML = "Cancer - Crabrawler";
+document.getElementById("change").innerHTML = "Those whose sign is Cancer tend to be emotional, protective and intuitive.  Just like Crabrawler, these people may seem standoffish at first, but they will keep your friendship for life!";
       }
 
       function symbol5(){
         var audio = new Audio("../sounds/sound5.mp3");
         audio.play();
+        document.getElementById("who").innerHTML = "Leo - Pyroar";
+document.getElementById("change").innerHTML = "Pyroar and Leo are both dramatic, outgoing and self-assured.  Their fiery spirits burn with justice with the need to become a great leader.";
         }
 
         function symbol6(){
           var audio = new Audio("../sounds/sound6.mp3");
           audio.play();
+          document.getElementById("who").innerHTML = "Virgo - Jigglypuff";
+document.getElementById("change").innerHTML = "Virgo are kind, smart, and are the best at planning.  Just like Jigglypuff, they may seem shy, but are more than willing to talk and sing.";
           }
 
           function symbol7(){
             var audio = new Audio("../sounds/sound7.mp3");
             audio.play();
+            document.getElementById("who").innerHTML = "Libra - Lucario";
+document.getElementById("change").innerHTML = "Both Libra and Lucario value harmony and compromise.  These people will be willing to put others before themselves in friend circles.";
             }
 
             function symbol8(){
               var audio = new Audio("../sounds/sound8.mp3");
               audio.play();
+              document.getElementById("who").innerHTML = "Scorpio - Drapion";
+document.getElementById("change").innerHTML = "Scorpio are unafraid to go off on their own with their independence, just like Drapion!  They love debates, controversy and being authentic all the time.";
               }
 
               function symbol9(){
                 var audio = new Audio("../sounds/sound9.mp3");
                 audio.play();
+                document.getElementById("who").innerHTML = "Sagittarius - Decidueye";
+document.getElementById("change").innerHTML = "Being adventurous, creative and strong willed are the foundations for Sagittaruis and Decidueye alike!  They are considered natural leaders and explorers.";
                 }
 
                 function symbol10(){
                   var audio = new Audio("../sounds/sound10.mp3");
                   audio.play();
+                  document.getElementById("who").innerHTML = "Capricorn - Skiddo";
+document.getElementById("change").innerHTML = "Capricorn are hardworking and will do what they set their minds to, no matter what!  Skiddo is just as determined to grow stronger to evolve!";
                   }
 
                   function symbol11(){
                     var audio = new Audio("../sounds/sound11.mp3");
                     audio.play();
+                    document.getElementById("who").innerHTML = "Aquarius - Lapras";
+document.getElementById("change").innerHTML = "Being lovers of art and compassion, Aquarius and Lapras are reflections of one another!  Being natural problem solvers and artistic, Lapras uses its shell as beauty and transport!";
                     }
                     
                     function symbol12(){
                       var audio = new Audio("../sounds/sound12.mp3");
                       audio.play();
+                      document.getElementById("who").innerHTML = "Pisces - Goldeen";
+document.getElementById("change").innerHTML = "Pisces are seen as gentle, affectionate and musical in nature.  Just like Pisces, Goldeen are known as water dancers, elegant yet independent.";
                       }
 
 

@@ -7,9 +7,26 @@ body {
     text-align: center;
 }
 
+form{
+
+  font-size: 1.5em;
+
+}
+
+h2 {
+
+  font-size: 3em;
+}
+
+#change{
+
+font-size: 1.5em;
+
+}
+
 #head {
 
-    text-shadow: 1px 1.5px rgb(193, 225, 255);
+    
 
     position: relative;
     z-index: 2;
@@ -25,6 +42,28 @@ body {
     display: flex;
     flex-direction: column;
  
+}
+
+.alert {
+  padding: 15px;
+  background-color: #3408f7;
+  color: white;
+  border-radius: 5px;
+}
+
+.closebtn:hover {
+  color: rgb(255, 212, 94);
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #background {
@@ -56,4 +95,20 @@ max-width: 125px;
     cursor: pointer;
   }
 
-  
+/* OVERLAY ICON */
+img.over1, img.over2, img.over3, img.over4, img.over5, img.over6, img.over7, img.over8, img.over9, img.over10, img.over11, img.over12{
+  opacity: 0;
+    max-width: 8rem;
+}
+
+  .signspawn{
+    position: relative;
+  left: 45%;
+
+}
+.over2, .over3, .over4, .over5, .over6, .over7, .over8, .over9, .over10, .over11, .over12{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
