@@ -96,19 +96,28 @@ max-width: 125px;
   }
 
 /* OVERLAY ICON */
-img.over1, img.over2, img.over3, img.over4, img.over5, img.over6, img.over7, img.over8, img.over9, img.over10, img.over11, img.over12{
-  opacity: 0;
+ img.over1, img.over2, img.over3, img.over4, img.over5, img.over6, img.over7, img.over8, img.over9, img.over10, img.over11, img.over12{
+
     max-width: 8rem;
+
 }
 
   .signspawn{
     position: relative;
   left: 45%;
+ 
 
 }
-.over2, .over3, .over4, .over5, .over6, .over7, .over8, .over9, .over10, .over11, .over12{
+ .over2, .over3, .over4, .over5, .over6, .over7, .over8, .over9, .over10, .over11, .over12{
     position: absolute;
     top: 0%;
     left: 0%;
     
 }
+
+#over1, #over2, #over3, #over4, #over5, #over6, #over7, #over8, #over9, #over10, #over11, #over12 {
+  opacity: 0;
+}
+
+
+

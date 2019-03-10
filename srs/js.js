@@ -19,6 +19,7 @@ function calculate(f){
   }
   var born=f['birthdate'].value;
 
+
   born=born.match(/\//)?born.split('/'):born.split('.');
 
   var yyyy=Number(born[2]);
@@ -29,6 +30,9 @@ function calculate(f){
 
   var bornDate=new Date(yyyy,mm,dd), zodiacEnd, astrologicalSign;
 
+
+
+
   for(z in zodiac){
   zodiacEnd=new Date(yyyy,zodiac[z]['m'],zodiac[z]['d']);
   if(bornDate<=zodiacEnd){astrologicalSign=z;break}
@@ -37,13 +41,15 @@ function calculate(f){
   astrologicalSign.match(/\d/)?astrologicalSign=astrologicalSign.replace(/\d/g,''):null;
   var spanSign=document.getElementById('sign');
   spanSign.innerHTML=astrologicalSign;
+  console.log(spanSign);
+
+  
   return false
   }
 
-if ( document.getElementById('sign')= 'Aries' ) {
+  document.getElementById("over1").style.opacity = "1";
 
-  document.getElementsByClass("over1").setAttribute(opacity, 1);
-}
+
 
 
 // IMPORTANT
