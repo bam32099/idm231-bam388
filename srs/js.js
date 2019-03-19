@@ -1,5 +1,5 @@
 
-
+alert("Enter your Date of Birth! Type in either dd/mm/yyyy or dd.mm.yyyy, then hit enter!");
 
 function calculate(f){
   var zodiac={
@@ -47,6 +47,7 @@ function calculate(f){
   return false
   }
 
+  
   document.getElementById("over1").style.opacity = "1";
 
 
